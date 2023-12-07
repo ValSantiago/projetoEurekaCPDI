@@ -1,0 +1,405 @@
+@charset "UTF-8";
+
+/*# sourceMappingURL=bootstrap.min.css.map */
+
+/*Classes Locais*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    /*font-family: "Poppins", sans-serif;*/
+}
+
+
+/*Classes Locais do site*/
+
+body {
+    margin: 0;
+    margin-left: 0rem;
+    padding: 0;
+    max-width: 100%;
+    height: 100vh;
+    /*background: rgba(55, 111, 250, 0.6);*/
+    background-color: #f2f2f2;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+header {
+    height: auto;
+    padding: 0;
+    background-color: #019bb7;
+    color: white;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    position: sticky; 
+    top: 0;
+
+
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    
+    align-items: center;
+
+
+    /*
+    position: fixed;
+    top: 0;
+    */
+}
+
+header img {
+    mix-blend-mode: multiply;
+}
+
+.logo {
+    width: 6rem;
+    position: absolute;
+    top: 1.8rem;
+    left: 2.3rem;
+}
+
+header h1 {
+    max-width: 100%;
+    margin-left: 2.5rem;
+    padding: 1.6rem 5.6rem;
+    color: white;
+    font-weight: lighter;
+}
+
+.nav-menu {
+    width: 100%;
+    background-color: #019BB6;
+    text-align: center;
+    margin: 0 -2rem;
+    padding: 0rem;
+   
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    margin-right: 2rem;
+}
+
+.nav-menu ul li {
+    width: 80px;
+    margin: 12px;
+    padding: 2px;
+}
+
+
+.nav-menu ul li:hover {
+    width: 130px;
+    text-align: center;
+    border-radius: 10px;
+    /*transition: 0.5s;
+    transition: all 0.3s ease;*/
+    transition: 0.3s;
+
+    background-color: #019BB6;
+    border: 1px solid #fff;
+}
+
+.nav-menu ul li a:hover {
+    color: #021d68;
+}
+
+
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.nav-sub-menu {
+    display: none;
+}
+
+.nav-menu ul li:hover .nav-sub-menu {
+    display: block;
+    position: absolute;
+    background-color: #019BB6;
+    margin-top: 5px;
+    margin-left: -38px;
+}
+
+.nav-menu ul li:hover .nav-sub-menu ul {
+    display: block;
+}
+
+.nav-menu ul li:hover .nav-sub-menu ul li {
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    /*transition: 0.5s;*/
+    transition: all 0.3s ease;
+}
+
+.nav-menu ul li:hover .nav-sub-menu ul li:hover {
+    background-color: #025e68;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card-ods1 {
+    margin: 1rem;
+    padding-bottom: 1rem;
+    text-align: justify;
+    font-weight: lighter;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 15px gray;
+}
+
+.card-ods1 h1 {
+    margin-top: 2.5rem;
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card-ods1 p {
+    padding: 1.5rem;
+    margin-top: 0.2rem;
+    text-indent: 4rem;
+    line-height: 1.5;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+.card-ods1 img {
+    margin-top: 1rem;
+
+    padding: 0 8rem;
+    height: auto;
+
+
+    align-items: center;
+    max-width: 100%;
+}
+
+.card-exemplo {
+    margin: 1rem;
+    padding-bottom: 1rem;
+    text-align: justify;
+    font-weight: lighter;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 15px gray;
+}
+
+.card-exemplo h1 {
+    margin-top: 2.5rem;
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.bandejao-item h2 {
+    margin-top: 2.2rem;
+    text-align: center;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.exemplo-bandejao hr {
+    margin-top: 1rem;
+    margin: 0.5rem 2rem;
+    border: 0;
+    height: 0.1rem;
+    background-image: linear-gradient(to right, #f0f0f0, #00b9ff, #59d941, #f0f0f0);
+}
+
+.exemplo-bandejao p {
+    padding: 1.5rem;
+    text-indent: 4rem;
+    margin-top: 0.2rem;
+    font-weight: lighter;
+    font-size: x-large;
+    line-height: 1.5;
+}
+
+.exemplo-bandejao img {
+    margin-top: 1rem;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+    padding: 0 8rem;
+
+}
+
+footer {
+    text-align: center;
+    padding: 0.3rem;
+    font-weight: lighter;
+}
+
+
+/*ODS4*/
+.card-ods4 {
+    margin: 1rem;
+    padding-bottom: 1rem;
+    text-align: justify;
+    font-weight: lighter;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 15px gray;
+}
+
+
+.card-ods4 h1 {
+    margin-top: 2.5rem;
+    padding: 0 1rem;
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.card-ods4 h2 {
+    margin-top: 2.5rem;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card-ods4 h3 {
+    margin-top: 1.5rem;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card-ods4 ul {
+    margin-top: 0.2rem;
+    margin-left: 2rem;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+.card-ods4 ul li {
+    margin-top: 0rem;
+    padding: 0.3rem 0.3rem;
+    margin-top: 0.2rem;
+    font-weight: lighter;
+    font-size: x-large;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.card-ods4 ul li ul {
+    margin-top: 0.2rem;
+    margin-left: 2rem;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+.card-ods4 ul li ul li {
+    margin-top: 0.rem;
+    padding: 0.2rem 0.3rem;
+    margin-top: 0.2rem;
+    font-weight: lighter;
+    font-size: x-large;
+    line-height: 1;
+    text-align: justify;
+}
+
+
+
+.card-ods4 p {
+    padding: 1.5rem;
+    margin-top: 0.2rem;
+    text-indent: 4rem;
+    line-height: 1.5;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+.card-ods4 img {
+    margin-top: 1rem;
+    align-items: center;
+    max-width: 100%;
+}
+
+.card-ods4 hr {
+    margin-top: 1rem;
+    margin: 0.5rem 2rem;
+    border: 0;
+    height: 0.1rem;
+    background-image: linear-gradient(to right, #f0f0f0, #00b9ff, #59d941, #f0f0f0);
+}
+
+
+@media screen and (max-width: 680px) {
+    .logo {
+        display: none;
+    }
+
+
+    header {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    header h1 {
+        margin: 0;
+        padding: 0.5rem;
+        text-align: center;
+        font-weight: lighter;
+        font-size: x-large;
+
+    }
+
+    .nav-menu ul {
+        justify-content: center;
+    }
+
+    .card-ods1 img {
+        padding: 0 1rem;
+    }
+
+    .exemplo-bandejao img {
+        padding: 0 1rem;
+    }
+
+    .nav-menu ul li a {
+       
+        font-size: 1rem;
+    }
+    
+
+    .card-ods4 ul li ul {
+        margin-top: 0.2rem;
+        margin-left: 1rem;
+        padding: 0rem 1.7rem;
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        line-height: 1.3;
+    }
+
+}

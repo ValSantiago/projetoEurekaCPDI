@@ -1,0 +1,132 @@
+body{
+    height:100%;
+}
+:root {
+    --cor0: #b9def9;
+    --cor1: #82c3f5;
+    --cor2: #74afdb;
+    --cor3: #6090b5;
+    --cor4: #3e5d75;
+    --cor5: #1c2b36;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.dev{
+    width: 30%;
+    /* trocar a cor */
+    border: 4px solid var(--cor4);
+    border-radius: 3%;
+    text-align: center;
+    padding: 10px;
+    /* trocar a cor */
+    box-shadow: 10px 10px 15px var(--cor5);
+    /* trocar a cor */
+    background: rgba(79, 217, 255, 0.6);
+}
+
+.foto{
+    border-radius: 5%;
+    height: 300px;
+    padding-bottom: 6px;
+}
+
+.fotoval{
+    border-radius: 5%;
+    height: 306px;
+    padding-bottom: 6px;
+}
+
+
+.header {
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(95, 220, 255, 0.64);
+    border-bottom: 1px;
+  top: 0;
+  width: 100%;
+  border: 4px solid var(--cor4);
+}
+
+.header .logo {
+    padding: 22px 20px;
+    height: 70px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header ul li a {
+    line-height: 70px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.header ul li a:hover {
+    transition: 0.3s;
+
+    background-color: #019BB6;
+    border: 1px solid #fff;
+}
+
+
+h2{
+    padding: 70px;
+  margin: 10px;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2rgb(0, 0, 0)fff,
+  1px 1px #000000, -1px -1rgb(0, 0, 0)fff, 1rgb(0, 0, 0)1px #000000, -1px 1px #000000;
+}
+
+
+p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2rgb(0, 0, 0)fff,
+    1px 1px #000000, -1px -1rgb(0, 0, 0)fff, 1rgb(0, 0, 0)1px #000000, -1px 1px #000000;
+            
+}
+
+body{
+    background: url(imagenes/WhatsApp\ Image\ 2023-11-22\ at\ 9.04.16\ PM.jpeg)  ;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height:358vh;
+   padding: 2px;
+   margin: 0px;
+   backdrop-filter: blur(7px);
+   
+    
+}
+
+#h3tittle{
+    font-size: 30px;
+  color: rgb(4, 89, 75);
+}
